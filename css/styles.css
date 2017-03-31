@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+body {
+  font-family: "sans-serif";
+  margin: 0; }
+
+#app-container {
+  background-color: #76A67F; }
+
+.column-container {
+  font-size: 0; }
+  .column-container > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px; }
+
+.hamburger-icon {
+  position: fixed;
+  top: 0;
+  left: 24px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  z-index: 1;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 200; }
+
+.arrowdown-icon,
+.tour,
+.examples,
+.pricing,
+.login,
+.help,
+.blog {
+  display: none; }
+
+.team button {
+  background-color: #76A67F;
+  color: #ccc;
+  border: 3px #ccc solid;
+  font-family: "Palatino";
+  font-size: 11px;
+  position: absolute;
+  top: 20px;
+  left: 25%;
+  padding: 12px 24px;
+  letter-spacing: 1px; }
+
+.team {
+  text-align: center; }
+
+.section-01 {
+  text-align: center;
+  margin-top: 60px;
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 10%;
+  margin-bottom: 24px; }
+
+.section-01 h1 {
+  max-width: 430px; }
+
+.section-01 p {
+  max-width: 490px; }
+
+.members img {
+  width: 100%; }
+
+.thumbnail {
+  padding: 0;
+  border: 0; }
+
+.caption {
+  padding: 0;
+  border: 0;
+  background-color: #fff; }
+
+.members {
+  background-color: #76A67F;
+  max-width: 300px;
+  padding: 0;
+  text-align: center; }
+
+.members h3 {
+  font-size: 16px; }
+
+.members span {
+  color: #84D882; }
+
+.members p {
+  margin-bottom: 2px;
+  font-size: 13px; }
+
+.desktopimgs {
+  display: none; }
+
+.section-02 {
+  text-align: center;
+  color: #ddd;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 24px; }
+
+.section-02 h1 {
+  margin-bottom: 24px; }
+
+.employee-projects {
+  max-width: 590px;
+  background-color: #76A67F;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 24px;
+  color: #ccc;
+  font-size: 12px; }
+
+.employee-projects h1 {
+  font-size: 16px;
+  color: #aaa; }
+
+.employee-projects img {
+  max-width: 590px; }
+
+.jumbotron {
+  background-image: url("../assets/solrod-drawingboard-background.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  min-height: 250px;
+  margin-bottom: 6px; }
+
+.u_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); }
+
+.call-to-action {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 90%;
+  padding: 32px 0;
+  background: #6E809B;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px; }
+
+.socialmedia {
+  color: #bbb;
+  font-size: 40px; }
+
+.socialmedia i {
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background: #000;
+    color: #ddd;
+    z-index: 1;
+    border-radius: 0px; }
+
+  .hamburger-icon {
+    display: none; }
+
+  .arrowdown-icon,
+  .tour,
+  .examples,
+  .pricing,
+  .login,
+  .help,
+  .blog {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    padding: 16px 12px; }
+
+  .login {
+    margin-left: 45%; }
+
+  .blog {
+    padding-right: 0px; }
+
+  .team button {
+    position: static;
+    margin-top: 100px;
+    margin-left: auto; }
+
+  .section-01 {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #fff;
+    width: 86%;
+    margin-left: 7%;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    padding-left: 0; }
+
+  .section-01 h1 {
+    max-width: 100%; }
+
+  .section-01 p {
+    max-width: 70%;
+    margin-left: 15%;
+    color: #aaa; }
+
+  .members {
+    background-color: #76A67F;
+    max-width: 86%;
+    padding: 0;
+    text-align: center; }
+
+  .members h3 {
+    font-size: 16px; }
+
+  .members span {
+    color: #84D882; }
+
+  .members p {
+    margin-bottom: 2px;
+    font-size: 13px; }
+
+  .desktopimgs {
+    display: block;
+    position: relative; }
+
+  .office-img {
+    width: 100%;
+    margin-top: 72px;
+    border-top: 2px #fff solid; }
+
+  .mighty-img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 35%; }
+
+  .section-02 {
+    text-align: center;
+    color: #ddd;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-bottom: 12px; }
+
+  .employee-projects {
+    max-width: 90%;
+    background-color: #76A67F;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 24px;
+    color: #ccc;
+    font-size: 12px; }
+
+  .call-to-action {
+    top: 35%;
+    left: 35%;
+    width: 30%; }
+
+  .socialmedia {
+    padding-left: 70%;
+    font-size: 24px; } }
+
+/*# sourceMappingURL=styles.css.map */
